@@ -1,0 +1,42 @@
+.TodoItem {
+  display: flex;
+  margin: 4px;
+  input{
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    &:read-only{
+      border: none;
+      &:focus-visible{
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .drop{
+    width: 100px;
+    margin: 0 4px;
+    button{
+      width: 100%;
+    }
+  }
+  button{
+    margin: 0 4px;
+  }
+  .deadline{
+    display: flex;
+    align-items: center;
+  }
+  .name{
+    width: 100px;
+  }
+  .description{
+    width: 200px;
+  }
+  .calendar{
+    display: flex;
+    align-items: center;
+  }
+}
+

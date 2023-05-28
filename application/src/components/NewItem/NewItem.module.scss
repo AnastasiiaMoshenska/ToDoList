@@ -1,0 +1,48 @@
+.NewItem {
+  margin-bottom: 30px;
+  h6{
+    margin-bottom: 10px;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    input{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  .dropdown{
+    width: 100px;
+    &__wrapper{
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+  }
+  .calendar{
+    background: lightgray;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  .add{
+    margin-top: 10px;
+  }
+  .label{
+    position: absolute;
+    font-size: 10px;
+    left: 160px;
+    top: -5px;
+  }
+  .category{
+    &__description{
+      position: relative;
+      margin-left: 10px;
+    }
+    &__label{
+      position: absolute;
+      font-size: 10px;
+      top: -21px;
+      left: 0;
+    }
+  }
+}
